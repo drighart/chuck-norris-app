@@ -1,0 +1,18 @@
+[2019-09-17 17:05:53.544] [renderer20190917170549730] [error] Failed to watch /home/coder/.vscode for changes (Error: ENOENT: no such file or directory, watch '/home/coder/.vscode', undefined)
+[2019-09-17 17:05:53.544] [renderer20190917170549730] [error] ENOENT: no such file or directory, watch '/home/coder/.vscode': Error: ENOENT: no such file or directory, watch '/home/coder/.vscode'
+    at r (https://workspace-david.appx.cloud/ide.main.165651.js:60:217782)
+    at Object.t.protoToArgument (https://workspace-david.appx.cloud/ide.main.165651.js:60:218840)
+    at https://workspace-david.appx.cloud/ide.main.165651.js:60:2737475
+    at https://workspace-david.appx.cloud/ide.main.165651.js:60:2771187
+    at Array.forEach (<anonymous>)
+    at e.emit (https://workspace-david.appx.cloud/ide.main.165651.js:60:2771160)
+    at e.emitFail (https://workspace-david.appx.cloud/ide.main.165651.js:60:2739407)
+    at e.<anonymous> (https://workspace-david.appx.cloud/ide.main.165651.js:60:2738705)
+    at https://workspace-david.appx.cloud/ide.main.165651.js:38:2489
+    at Object.next (https://workspace-david.appx.cloud/ide.main.165651.js:38:2594)
+[2019-09-17 17:06:00.465] [renderer20190917170549730] [error] Data tree node not found: [object Object]: Error: Data tree node not found: [object Object]
+    at n.e.getDataNode (https://workspace-david.appx.cloud/ide.main.165651.js:60:1615552)
+    at n.<anonymous> (https://workspace-david.appx.cloud/ide.main.165651.js:60:1613125)
+    at https://workspace-david.appx.cloud/ide.main.165651.js:16:2489
+    at Object.next (https://workspace-david.appx.cloud/ide.main.165651.js:16:2594)
+    at a (https://workspace-david.appx.cloud/ide.main.165651.js:16:1365)

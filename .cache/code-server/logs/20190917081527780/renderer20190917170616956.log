@@ -1,0 +1,23 @@
+[2019-09-17 17:06:24.830] [renderer20190917170616956] [error] Data tree node not found: [object Object]: Error: Data tree node not found: [object Object]
+    at n.e.getDataNode (https://workspace-david.appx.cloud/ide.main.165651.js:60:1615552)
+    at n.e.updateWidth (https://workspace-david.appx.cloud/ide.main.165651.js:60:1612368)
+    at e.updateWidth (https://workspace-david.appx.cloud/ide.main.165651.js:67:1330360)
+    at https://workspace-david.appx.cloud/ide.main.165651.js:67:1341396
+    at e.fire (https://workspace-david.appx.cloud/ide.main.165651.js:16:14094)
+    at t.render (https://workspace-david.appx.cloud/ide.main.165651.js:38:363523)
+    at t.notifyFileDecorationsChanges (https://workspace-david.appx.cloud/ide.main.165651.js:38:360441)
+    at https://workspace-david.appx.cloud/ide.main.165651.js:38:357365
+    at Array.forEach (<anonymous>)
+    at https://workspace-david.appx.cloud/ide.main.165651.js:38:357336
+[2019-09-17 17:09:01.338] [renderer20190917170616956] [error] Failed to watch /home/coder/.vscode for changes (Error: ENOENT: no such file or directory, watch '/home/coder/.vscode', undefined)
+[2019-09-17 17:09:01.344] [renderer20190917170616956] [error] ENOENT: no such file or directory, watch '/home/coder/.vscode': Error: ENOENT: no such file or directory, watch '/home/coder/.vscode'
+    at r (https://workspace-david.appx.cloud/ide.main.165651.js:60:217782)
+    at Object.t.protoToArgument (https://workspace-david.appx.cloud/ide.main.165651.js:60:218840)
+    at https://workspace-david.appx.cloud/ide.main.165651.js:60:2737475
+    at https://workspace-david.appx.cloud/ide.main.165651.js:60:2771187
+    at Array.forEach (<anonymous>)
+    at e.emit (https://workspace-david.appx.cloud/ide.main.165651.js:60:2771160)
+    at e.emitFail (https://workspace-david.appx.cloud/ide.main.165651.js:60:2739407)
+    at e.<anonymous> (https://workspace-david.appx.cloud/ide.main.165651.js:60:2738705)
+    at https://workspace-david.appx.cloud/ide.main.165651.js:38:2489
+    at Object.next (https://workspace-david.appx.cloud/ide.main.165651.js:38:2594)

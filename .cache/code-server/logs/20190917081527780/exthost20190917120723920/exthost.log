@@ -1,0 +1,16 @@
+[2019-09-17 12:07:29.742] [exthost] [info] extension host started
+[2019-09-17 12:07:29.888] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-09-17 12:07:29.888] [exthost] [info] ExtensionService#loadCommonJSModule /src/packages/server/build/extensions/extension-editing/dist/extension
+[2019-09-17 12:07:29.915] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-09-17 12:07:29.915] [exthost] [info] ExtensionService#loadCommonJSModule /src/packages/server/build/extensions/typescript-language-features/dist/extension
+[2019-09-17 12:07:29.964] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-09-17 12:07:29.964] [exthost] [info] ExtensionService#loadCommonJSModule /src/packages/server/build/extensions/debug-auto-launch/dist/extension
+[2019-09-17 12:07:29.968] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-09-17 12:07:29.968] [exthost] [info] ExtensionService#loadCommonJSModule /src/packages/server/build/extensions/emmet/dist/extension
+[2019-09-17 12:07:30.032] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-09-17 12:07:30.032] [exthost] [info] ExtensionService#loadCommonJSModule /src/packages/server/build/extensions/git/dist/main
+[2019-09-17 12:07:30.248] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-09-17 12:07:30.248] [exthost] [info] ExtensionService#loadCommonJSModule /src/packages/server/build/extensions/merge-conflict/dist/extension
+[2019-09-17 12:07:30.344] [exthost] [info] eager extensions activated
+[2019-09-17 12:13:48.735] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-09-17 12:13:48.735] [exthost] [info] ExtensionService#loadCommonJSModule /src/packages/server/build/extensions/markdown-language-features/dist/extension
