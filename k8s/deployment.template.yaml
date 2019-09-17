@@ -1,0 +1,29 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: {appName}
+  namespace: {namespace}
+  labels:
+    app: {appName}
+spec:
+  revisionHistoryLimit: 0
+  replicas: 1
+  template:
+    metadata:
+      name: {appName}
+      labels:
+        app: {appName}
+    spec:
+      containers:
+      - name: {appName}
+        image: {image}
+        resources:
+          limits:
+            cpu: 500m
+            memory: 200Mi
+          requests:
+            cpu: 10m
+            memory: 30Mi
+        ports:
+        - containerPort: 8080
+          protocol: TCP
