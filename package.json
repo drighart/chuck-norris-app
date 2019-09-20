@@ -1,8 +1,8 @@
 {
-  "name": "liander-app",
+  "name": "chuck-norris-app",
   "version": "0.0.1",
-  "description": "Liander app",
-  "productName": "Liander App",
+  "description": "Chuck Norris app",
+  "productName": "Chuck Norris App",
   "cordovaId": "org.cordova.quasar.app",
   "author": "David Righart <david.righart@gmail.com>",
   "private": true,
