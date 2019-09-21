@@ -1,4 +1,4 @@
-# The every day a joke app
+# The Chuck Norris App
 
 This example calls another API and shows the results on the mobile app. In this 
 case, those are the jokes of Chuck Norris.
