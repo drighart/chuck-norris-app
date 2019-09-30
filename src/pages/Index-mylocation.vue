@@ -32,7 +32,7 @@
       <br />
       My geolocation: {{ geolocPosition }}
     </div>
-    <q-btn color="primary" icon="" label="Terug" to="/"/>
+    <q-btn color="purple" icon="" label="Terug" to="/"/>
   </div>
 </template>
 

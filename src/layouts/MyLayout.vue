@@ -36,6 +36,15 @@
             <q-item-label caption>https://www.liander.nl</q-item-label>
           </q-item-section>
         </q-item>
+        <q-item clickable to="mylocation">
+          <q-item-section avatar>
+            <q-icon name="map" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Mijn locatie</q-item-label>
+            <q-item-label caption>Toon mijn locatie op de kaart</q-item-label>
+          </q-item-section>
+        </q-item>
         <q-item clickable tag="a" target="_blank" href="https://www.liander.nl">
           <q-item-section avatar>
             <q-icon name="help" />
