@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.d4a48057b7f4300b63c90cb3e258cc8b.js"
+  "precache-manifest.5aa74810c05f7b2a69fb8dad381f2cba.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "chuck-norris-app"});
