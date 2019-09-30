@@ -5,7 +5,7 @@ import { axios } from 'axios'
 <template>
   <q-page class="flex flex-center">
     <q-btn color="purple" @click="loadData()">
-      <q-icon left size="3em" name="map"/>
+      <q-icon left size="1em" name="emoji_emotions"/>
       <div>Press the Chuck Norris button!</div>
     </q-btn>
   </q-page>
@@ -27,11 +27,12 @@ export default {
           this.data = response.data
           this.chucky = this.data.value
           this.$q.notify({
-            color: 'purple',
+            color: 'orange',
             textColor: 'white', // if default 'white' doesn't fit
-            position: 'top',
+            position: 'bottom-left',
             message: this.chucky,
-            icon: 'wifi'
+            icon: 'thumb_up',
+            timeout: 10000
           })
         })
         .catch(() => {
