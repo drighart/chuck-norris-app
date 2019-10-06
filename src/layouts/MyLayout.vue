@@ -27,13 +27,22 @@
     >
       <q-list>
         <q-item-label header>Menu</q-item-label>
-        <q-item clickable tag="a" target="_blank" href="https://www.liander.nl">
+        <q-item clickable to="/">
           <q-item-section avatar>
-            <q-icon name="dashboard" />
+            <q-icon name="home" />
           </q-item-section>
           <q-item-section>
-            <q-item-label>Liander</q-item-label>
-            <q-item-label caption>https://www.liander.nl</q-item-label>
+            <q-item-label>Uitleg</q-item-label>
+            <q-item-label caption>Wat doet deze app?</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable to="chuck">
+          <q-item-section avatar>
+            <q-icon name="emoji_emotions" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Chuck Norris</q-item-label>
+            <q-item-label caption>Wat zegt Chuck Norris over deze app?</q-item-label>
           </q-item-section>
         </q-item>
         <q-item clickable to="mylocation">
@@ -47,10 +56,19 @@
         </q-item>
         <q-item clickable tag="a" target="_blank" href="https://www.liander.nl">
           <q-item-section avatar>
+            <q-icon name="dashboard" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Liander</q-item-label>
+            <q-item-label caption>https://www.liander.nl</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable tag="a" target="_blank" href="https://www.github.com/Alliander">
+          <q-item-section avatar>
             <q-icon name="help" />
           </q-item-section>
           <q-item-section>
-            <q-item-label>Over deze app</q-item-label>
+            <q-item-label>Over deze app (source-code)</q-item-label>
             <q-item-label caption>Wat doet deze app en hoe gaan we om met betrekking tot privacy van uw data?</q-item-label>
           </q-item-section>
         </q-item>

@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="fully">
     <vl-map
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
       data-projection="EPSG:4326"
     >
-      <vl-view :zoom.sync="zoom" :center.sync="center" :rotation.sync="rotation"></vl-view>
+      <vl-view :zoom.sync="zoom" :center.sync="geolocPosition" :rotation.sync="rotation"></vl-view>
 
       <vl-geoloc @update:position="geolocPosition = $event">
         <template slot-scope="geoloc">
@@ -33,8 +33,32 @@
       </vl-overlay>
 
     </vl-map>
+    <q-page-sticky position="bottom-left" :offset="[18, 18]">
+        <q-btn round color="purple" icon="arrow_back" to="/" />
+    </q-page-sticky>
+
   </div>
 </template>
+
+<style scoped>
+  .fully {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .backhome {
+    overflow: hidden;
+    display: block;
+    visibility: visible;
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 20%;
+  }
+</style>
 
 <script>
 export default {
