@@ -53,8 +53,16 @@
 export default {
   name: 'CameraPage',
   mounted () {
-    navigator.mediaDevices.getUserMedia({ video: true })
+    const videoConstraints = {
+      facingMode: 'environment'
+    }
+    const constraints = {
+      video: videoConstraints,
+      audio: false
+    }
+    navigator.mediaDevices.getUserMedia(constraints)
       .then(mediaStream => {
+        console.log(mediaStream)
         this.$refs.video.srcObject = mediaStream
         this.$refs.video.play()
       })
@@ -63,9 +71,10 @@ export default {
   destroyed () {
     navigator.mediaDevices.getUserMedia({ video: true })
       .then(mediaStream => {
-        console.log('Stop camera')
-        // console.log(mediaStream)
-        mediaStream.getVideoTracks()[0].stop()
+        mediaStream.getTracks().forEach(function (track) {
+          console.log('stop')
+          track.stop()
+        })
         // const mediaStreamTrack = this.$refs.video.srcObject.getVideoTracks()[0]
         // this.$refs.video.srcObject = mediaStream
         // this.$refs.video.stop()
