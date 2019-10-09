@@ -3,7 +3,7 @@
     <div class="camera-modal">
         <video ref="video" class="camera-sample" autoplay playsinline/>
         <div class="fixed-bottom taken">
-            <q-btn color="purple" size="35px" @click="capture" round dense icon="camera"/>
+            <q-btn color="purple" size="35px" to="happy" round dense icon="camera"/>
         </div>
     </div>
   </div>

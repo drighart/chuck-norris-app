@@ -8,7 +8,8 @@ const routes = [
       { path: 'home', component: () => import('pages/Index-landing.vue') },
       { path: 'chuck', component: () => import('pages/Index-chuck.vue') },
       { path: 'mylocation', component: () => import('pages/Index-mylocation.vue') },
-      { path: 'camera', component: () => import('pages/Index-camera.vue') }
+      { path: 'camera', component: () => import('pages/Index-camera.vue') },
+      { path: 'happy', component: () => import('pages/Index-happy.vue') }
     ]
   }
 ]
