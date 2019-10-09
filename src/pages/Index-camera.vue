@@ -62,9 +62,9 @@ export default {
     }
     navigator.mediaDevices.getUserMedia(constraints)
       .then(mediaStream => {
-        console.log(mediaStream)
         this.$refs.video.srcObject = mediaStream
         this.$refs.video.play()
+        window.localStream = mediaStream
       })
       .catch(error => console.error('getUserMedia() error:', error))
   },
@@ -74,12 +74,14 @@ export default {
         mediaStream.getTracks().forEach(function (track) {
           console.log('stop')
           track.stop()
+          track.stop()
         })
-        // const mediaStreamTrack = this.$refs.video.srcObject.getVideoTracks()[0]
-        // this.$refs.video.srcObject = mediaStream
-        // this.$refs.video.stop()
       })
       .catch(error => console.error('getUserMedia() error:', error))
+
+    window.localStream.getTracks().forEach((track) => {
+      track.stop()
+    })
   },
   methods: {
     capture () {

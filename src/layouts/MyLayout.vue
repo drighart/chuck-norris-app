@@ -81,6 +81,15 @@
             <q-item-label caption>Wat doet deze app en hoe gaan we om met betrekking tot privacy van uw data?</q-item-label>
           </q-item-section>
         </q-item>
+        <q-item clickable tag="a" target="_blank" href="whatsapp://send?text=Chuck Norris App - https://drighart.github.io/chuck-norris-app/">
+          <q-item-section avatar>
+            <q-icon name="share" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Deel deze App!</q-item-label>
+            <q-item-label caption>Deel deze app via een link in WhatsApp</q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
