@@ -34,7 +34,7 @@
 
     </vl-map>
     <q-page-sticky position="bottom-left" :offset="[18, 18]">
-        <q-btn round color="purple" icon="arrow_back" to="/" />
+        <q-btn round color="purple" icon="arrow_back" to="home" />
     </q-page-sticky>
 
   </div>

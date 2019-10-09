@@ -27,7 +27,7 @@
     >
       <q-list>
         <q-item-label header>Menu</q-item-label>
-        <q-item clickable to="/">
+        <q-item clickable to="home">
           <q-item-section avatar>
             <q-icon name="home" />
           </q-item-section>
@@ -43,6 +43,15 @@
           <q-item-section>
             <q-item-label>Chuck Norris</q-item-label>
             <q-item-label caption>Wat zegt Chuck Norris over deze app?</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable to="camera">
+          <q-item-section avatar>
+            <q-icon name="camera" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Bestuur de camera</q-item-label>
+            <q-item-label caption>Met webapps kun je ook foto's maken of QR codes scannen</q-item-label>
           </q-item-section>
         </q-item>
         <q-item clickable to="mylocation">
